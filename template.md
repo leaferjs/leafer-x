@@ -10,13 +10,15 @@ src # 插件代码主目录, 只能引入 @leafer-ui/core、@leafer-ui/interface
 
 package.json  # 根据需要修改插件名、入口文件等信息，支持web与node环境
 tsconfig.json # typescript 配置文件
-rollup.config.js # rollup 打包脚步配置文本
+rollup.config.js # rollup 打包脚本配置文本
 
 .gitignore # 提交git时忽略哪些文件和目录
 .eslintrc.js # 代码语法检查配置
 .prettierrc # 代码格式化配置
 
 __tests__ # 单元测试目录
+
+LICENSE # 授权文件，修改为你自己的姓名
 
 # 自动创建
 dev # 开发目录，放置以 main.ts 作为入口的 demo 打包代码
