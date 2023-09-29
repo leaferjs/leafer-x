@@ -1,6 +1,10 @@
 # 插件开发模版
 
-[Typescript](https://ts.nodejs.cn/) + [Rollup.js](https://www.rollupjs.com/) + [Vite](https://cn.vitejs.dev/guide/) + [Vitest](https://cn.vitest.dev/guide/)
+[Typescript](https://ts.nodejs.cn/) + [Rollup.js](https://www.rollupjs.com/) + [Vite](https://cn.vitejs.dev/guide/) + [Vitest](https://cn.vitest.dev/guide/) [点此下载模版](https://github.com/leaferjs/LeaferX/archive/refs/heads/main.zip)
+
+```sh
+git clone https://github.com/leaferjs/LeaferX
+```
 
 ## 目录结构
 
@@ -10,7 +14,7 @@ src # 插件代码主目录, 只能引入 @leafer-ui/core、@leafer-ui/interface
 
 package.json  # 根据需要修改插件名、入口文件等信息，支持web与node环境
 tsconfig.json # typescript 配置文件
-rollup.config.js # rollup 打包脚本配置文本
+rollup.config.js # 需修改导出的全局变量名，rollup 打包脚本配置文件
 
 .gitignore # 提交git时忽略哪些文件和目录
 .eslintrc.js # 代码语法检查配置
@@ -18,6 +22,7 @@ rollup.config.js # rollup 打包脚本配置文本
 
 __tests__ # 单元测试目录
 
+README.md # 插件介绍，需修改为你自己的内容
 LICENSE # 授权文件，修改为你自己的姓名
 
 # 自动创建
@@ -38,6 +43,6 @@ npm run test # 自动化测试
 
 ## 代码风格
 
-默认使用 @typescript-eslint， 单引号优先、句尾不加分号，可以给编辑器设置自动保存时进行格式化。
+使用 @typescript-eslint， 单引号优先、句尾无分号，可以给编辑器设置保存时自动格式化。
 
-建议大家保持一致的代码风格，这样互相看代码，提 PR 比较方便。
+建议大家保持一致的代码风格，这样互相 review 代码，提 PR 比较方便。
