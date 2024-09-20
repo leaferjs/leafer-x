@@ -1,6 +1,6 @@
 {
   "name": "leafer-x",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "leafer <leaferjs@163.com>",
   "license": "MIT",
   "type": "module",
@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.4",
-    "@rollup/plugin-html": "^1.0.2",
+    "@rollup/plugin-html": "^1.0.3",
     "@rollup/plugin-multi-entry": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.2.1",
     "@rollup/plugin-terser": "^0.4.3",
@@ -50,9 +50,9 @@
     "jsdom": "^22.0.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.49.0",
-    "leafer-ui": "^1.0.2"
+    "leafer-ui": "^1.0.3"
   },
   "dependencies": {
-    "@leafer-ui/core": "^1.0.2"
+    "@leafer-ui/core": "^1.0.3"
   }
 }
