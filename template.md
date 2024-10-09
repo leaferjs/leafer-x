@@ -1,9 +1,9 @@
 # 插件开发模版
 
-[Typescript](https://ts.nodejs.cn/) + [Rollup.js](https://www.rollupjs.com/) + [Vite](https://cn.vitejs.dev/guide/) + [Vitest](https://cn.vitest.dev/guide/) [点此下载模版](https://github.com/leaferjs/LeaferX/archive/refs/heads/main.zip)
+[Typescript](https://ts.nodejs.cn/) + [Rollup.js](https://www.rollupjs.com/) + [Vite](https://cn.vitejs.dev/guide/) + [Vitest](https://cn.vitest.dev/guide/) [点此下载模版](https://github.com/leaferjs/leafer-x/archive/refs/heads/main.zip)
 
 ```sh
-git clone https://github.com/leaferjs/LeaferX
+git clone https://github.com/leaferjs/leafer-x
 ```
 
 ## 目录结构
