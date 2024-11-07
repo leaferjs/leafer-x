@@ -1,6 +1,6 @@
 {
   "name": "leafer-x",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "author": "leafer <leaferjs@163.com>",
   "license": "MIT",
   "type": "module",
@@ -50,9 +50,9 @@
     "jsdom": "^22.0.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.49.0",
-    "leafer-ui": "^1.0.8"
+    "leafer-ui": "^1.0.9"
   },
-  "dependencies": {
-    "@leafer-ui/core": "^1.0.8"
+  "peerDependencies": {
+    "@leafer-ui/core": "^1.0.9"
   }
 }
